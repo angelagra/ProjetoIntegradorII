@@ -14,6 +14,12 @@
 			</ul>
 		</nav>
 	</header>
+
+	<section>
+			<h1>Bem Vindo Fulano</h1>
+
+			<button class="button">Sair</button>
+	</section>
 	</body>
 
 </html>
