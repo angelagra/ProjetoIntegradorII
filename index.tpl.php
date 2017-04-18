@@ -17,11 +17,20 @@
         </h1>
 
         <form method="post" class="frm">
+
+          <input name="email" id="email" type="text" placeholder="Entre com seu E-mail" class="color-default"/>
+          <input name="senha" id="senha" type="password" placeholder="Entre com sua Senha" class="color-default"/>
+
+          <button type="submit" id="bnt-login" class="color-default" value="Entrar">Entrar</button>
+          <!-- <button type="submit" id="bnt-register" class="color-default">Registrar</button> -->
+      </form>
+
           <input type="text" placeholder="Entre com seu E-mail" class="color-default"/>
           <input type="password" placeholder="Entre com sua Senha" class="color-default"/>
           <button type="submit" id="bnt-login" class="color-default">Entrar</button>
           <button type="submit" id="bnt-login" class="color-default">Registrar</button>
       </form>
+
       <form method="post" class="frmCheck">
         <input type="checkbox" /><label> Esqueceu sua conta?</label>
       </form>
